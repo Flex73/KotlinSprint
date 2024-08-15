@@ -1,6 +1,12 @@
 package org.example
 
 fun main() {
+    val ordersNumber = 75
+    val gratitudeMessage = "Thanks for choosing us!"
+
+    println(ordersNumber)
+    println(gratitudeMessage)
+
     val length = 40_868_600_000L
     val age: Byte = 27
     val partOfDay = 0.075f
