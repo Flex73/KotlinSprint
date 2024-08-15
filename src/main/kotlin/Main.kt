@@ -1,5 +1,9 @@
 package org.example
 
 fun main() {
-    println("Hello World!")
+    val ordersNumber = 75
+    val gratitudeMessage = "Thanks for choosing us!"
+
+    println(ordersNumber)
+    println(gratitudeMessage)
 }
