@@ -1,6 +1,6 @@
-package org.example
+package lesson_1
 
-fun getEmployeesNumber() {
+fun main() {
     var employeesNumber = 2000
     //println(employeesNumber)
 
