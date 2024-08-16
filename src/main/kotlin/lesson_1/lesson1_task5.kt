@@ -1,4 +1,4 @@
-package org.example.lesson1
+package org.example.lesson_1
 
 const val SECONDS_IN_HOUR = 3600
 const val MINUTES_IN_HOUR = 60
