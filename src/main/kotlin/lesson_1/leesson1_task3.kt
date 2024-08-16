@@ -1,6 +1,6 @@
-package org.example
+package org.example.lesson_1
 
-fun getSpaceFlightDate() {
+fun main() {
     val year = "1961"
     var hour = "09"
     var minute = "07"
