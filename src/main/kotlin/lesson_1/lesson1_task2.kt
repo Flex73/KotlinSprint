@@ -1,6 +1,6 @@
-package org.example
+package lesson_1
 
-fun getOrdersInfo() {
+fun main() {
     val ordersNumber = 75
     val gratitudeMessage = "Thanks for choosing us!"
 
