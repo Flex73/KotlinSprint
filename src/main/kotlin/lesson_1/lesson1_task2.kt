@@ -1,9 +1,9 @@
-package lesson_1
+package org.example
 
-fun main() {
-    val ordersNumber = 75
-    val gratitudeMessage = "Thanks for choosing us!"
+fun getEmployeesNumber() {
+    var employeesNumber = 2000
+    //println(employeesNumber)
 
-    println(ordersNumber)
-    println(gratitudeMessage)
+    employeesNumber -= 1
+    println(employeesNumber)
 }
