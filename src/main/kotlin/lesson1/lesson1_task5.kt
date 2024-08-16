@@ -1,10 +1,10 @@
-package org.example
+package lesson1
 
 const val SECONDS_IN_HOUR = 3600
 const val MINUTES_IN_HOUR = 60
 const val SECONDS_IN_MINUTE = 60
 
-fun getFormattedTimeInSpace() {
+fun main() {
     val totalSeconds = 6480
     val hours = totalSeconds / SECONDS_IN_HOUR
     val remainingSecondsAfterHours = totalSeconds % SECONDS_IN_HOUR
