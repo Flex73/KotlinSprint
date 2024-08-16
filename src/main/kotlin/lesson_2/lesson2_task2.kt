@@ -13,7 +13,6 @@ fun main() {
     val allSalaryExpenses = employeesSalaryExpenses + traineesSalaryExpenses
     println(allSalaryExpenses)
 
-    // calculate an average salary
     val allStaffNumber = employeesNumber + traineesNumber
     println(allSalaryExpenses / allStaffNumber)
 }
