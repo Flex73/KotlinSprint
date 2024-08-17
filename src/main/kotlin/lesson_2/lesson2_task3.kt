@@ -7,7 +7,7 @@ fun main() {
     val minutesDeparted = 39
     val travelTimeInMinutes = 457
 
-    val departTimeInMinutes = hoursDeparted * 60 + minutesDeparted
+    val departTimeInMinutes = hoursDeparted * MINUTES_IN_HOUR + minutesDeparted
     val arrivalTimeInMinutes = travelTimeInMinutes + departTimeInMinutes
 
     val hoursArrival = arrivalTimeInMinutes / MINUTES_IN_HOUR
