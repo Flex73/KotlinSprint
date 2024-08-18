@@ -2,7 +2,6 @@ package org.example.lesson_2
 
 import kotlin.math.pow
 
-const val DIVIDER = 100
 const val BASE_AMOUNT_MULTIPLIER = 1
 
 fun main() {
