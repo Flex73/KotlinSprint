@@ -1,4 +1,4 @@
-package org.example.lesson3
+package org.example.lesson_3
 
 fun main() {
     val turnData = "D2-D4;0"
