@@ -1,20 +1,18 @@
 package org.example.lesson_4
 
 fun main() {
-    var handsExercise = true
-    var legsExercise = false
-    var backExercise = false
-    var pressExercise = true
     val trainingDayNumber = 5
 
     for (day in 1..trainingDayNumber) {
         println("День $day")
-        printExercisesInfo(handsExercise, legsExercise, backExercise, pressExercise)
+        val isEvenDay = day % 2 == 0
 
-        handsExercise = !handsExercise
-        legsExercise = !legsExercise
-        backExercise = !backExercise
-        pressExercise = !pressExercise
+        printExercisesInfo(
+            handsExercise = !isEvenDay,
+            legsExercise = isEvenDay,
+            backExercise = isEvenDay,
+            pressExercise = !isEvenDay
+        )
     }
 }
 
