@@ -22,6 +22,7 @@ fun main() {
 fun printMessage(cargoWeight: Int, cargoVolume: Int) {
     val isAverage = (cargoWeight <= MAX_WEIGHT_AVERAGE)
             && (cargoWeight > MIN_WEIGHT_AVERAGE)
-            && (cargoVolume <= MAX_VOLUME_AVERAGE)
-    println("Груз с весом $cargoWeight кг и объемом $cargoVolume л соответствует категории $CARGO_AVERAGE_CATEGORY: $isAverage")
+            && (cargoVolume < MAX_VOLUME_AVERAGE)
+    println("Груз с весом $cargoWeight кг и объемом $cargoVolume л" +
+            "соответствует категории $CARGO_AVERAGE_CATEGORY: $isAverage")
 }
