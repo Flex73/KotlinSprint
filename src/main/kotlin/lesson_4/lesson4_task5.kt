@@ -7,9 +7,18 @@ const val IS_SHIP_DAMAGED = true
 const val IS_WEATHER_FAVORABLE = true
 
 fun main() {
+    println("Введите данные о текущем состоянии:")
+
+    println("Корабль повреждён: true/false")
     val isShipDamaged = readln().toBoolean()
+
+    println("Количество членов экипажа")
     val crewNumber = readln().toInt()
+
+    println("Количество ящиков с продовольствием")
     val supplyItemsAmount = readln().toInt()
+
+    println("Благоприятная ли погода: true/false")
     val isWeatherFavorable = readln().toBoolean()
 
     val isShipReady = isShipDamaged != IS_SHIP_DAMAGED
@@ -19,5 +28,5 @@ fun main() {
     val isCrewFull = crewNumber == 70
     val isShipPrepared = (isShipReady && isCrewNumberFit && isEnoughSupply)
             || (isCrewFull && isWeatherSuitable && isEnoughSupply)
-    println("The ship is ready: $isShipPrepared")
+    println("Корабль готов к отправлению: $isShipPrepared")
 }
